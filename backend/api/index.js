@@ -12,7 +12,7 @@ import orderRouter from "../router/orderRouter.js";
 import authRouter from "../router/authRouter.js";
 
 // Load environment variables
-dotenv.config({ path: "../.env" });
+dotenv.config({ path: "./.env" });
 
 // Initialize Express app
 const app = express();
