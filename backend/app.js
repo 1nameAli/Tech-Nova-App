@@ -1,5 +1,4 @@
 import express from "express";
-import serverless from "serverless-http"; // ✅ Required for Vercel
 import dotenv from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
