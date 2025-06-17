@@ -38,5 +38,11 @@ app.use("/api/positions", positionRouter);
 app.use("/api/orders", orderRouter);
 app.use("/api/auth", authRouter);
 
+// ✅ Start the server
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+  console.log(`🚀 Server running on http://localhost:${PORT}`);
+});
+
 // ✅ Export as a serverless function
 export default app;
