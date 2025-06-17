@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(bodyParser.json());
 
-const allowedOrigins = ["https://tech-nova-trading.vercel.app", "http://localhost:5174"];
+const allowedOrigins = ["https://tech-nova-trading.vercel.app", "https://tech-nova-dashboard.vercel.app"];
 app.use(
   cors({
     origin: allowedOrigins,
