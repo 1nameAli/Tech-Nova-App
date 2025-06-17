@@ -1,1 +1,1 @@
-export let baseUrl="https://tech-nova-production-7447.up.railway.app"
+export let baseUrl="https://tech-nova-two.vercel.app"
